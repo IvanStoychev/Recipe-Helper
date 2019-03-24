@@ -8,31 +8,31 @@ using System.Windows.Controls;
 namespace Recipe_Helper
 {
     /// <summary>
-    /// A representation of an item in the game.
+    /// A representation of an entity in the game.
     /// </summary>
-    class Item
+    class Entity
     {
         /// <summary>
-        /// The type of the item.
+        /// The type of the entity.
         /// </summary>
         public string Type;
 
         /// <summary>
-        /// A collection of properties this item has and their values.
+        /// A collection of properties this entity has and their values.
         /// </summary>
         public Dictionary<Property, object> Properties;
 
         /// <summary>
-        /// A collection of required professions and their levels in order to craft this item.
+        /// A collection of required professions and their levels in order to craft this entity.
         /// </summary>
         public Dictionary<Profession, int> ProfessionRequirements;
 
         /// <summary>
-        /// The image of this item.
+        /// The image of this entity.
         /// </summary>
         public Image Picture;
 
-        public Item(string type, Dictionary<Property, object> properties, Dictionary<Profession, int> requirements, Image picture)
+        public Entity(string type, Dictionary<Property, object> properties, Dictionary<Profession, int> requirements, Image picture)
         {
             Type = type;
             Properties = properties;

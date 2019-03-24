@@ -8,7 +8,7 @@ using System.Windows.Controls;
 namespace Recipe_Helper
 {
     /// <summary>
-    /// A property that an item can have.
+    /// A property that an entity can have.
     /// </summary>
     class Property
     {

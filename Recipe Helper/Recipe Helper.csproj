@@ -55,17 +55,35 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="EntityDisplay.xaml.cs">
-      <DependentUpon>EntityDisplay.xaml</DependentUpon>
+    <Compile Include="Models\AddPropertyModel.cs" />
+    <Compile Include="Views\AddPropertyView.xaml.cs">
+      <DependentUpon>AddPropertyView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Entity.cs" />
-    <Compile Include="Profession.cs" />
-    <Compile Include="Property.cs" />
-    <Page Include="EntityDisplay.xaml">
+    <Compile Include="ViewModels\AddPropertyViewModel.cs" />
+    <Compile Include="Models\EntityDisplayModel.cs" />
+    <Compile Include="Views\EntityDisplayView.xaml.cs">
+      <DependentUpon>EntityDisplayView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Data Classes\Entity.cs" />
+    <Compile Include="ViewModels\EntityDisplayViewModel.cs" />
+    <Compile Include="Models\NewDataModel.cs" />
+    <Compile Include="ViewModels\NewDataViewModel.cs" />
+    <Compile Include="Views\NewDataView.xaml.cs">
+      <DependentUpon>NewDataView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Data Classes\Profession.cs" />
+    <Compile Include="Data Classes\Property.cs" />
+    <Compile Include="Models\RecipeModel.cs" />
+    <Compile Include="ViewModels\RecipeViewModel.cs" />
+    <Page Include="Views\AddPropertyView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="MainWindow.xaml">
+    <Page Include="Views\EntityDisplayView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\RecipeView.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -73,10 +91,14 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="MainWindow.xaml.cs">
-      <DependentUpon>MainWindow.xaml</DependentUpon>
+    <Compile Include="Views\RecipeView.xaml.cs">
+      <DependentUpon>RecipeView.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Views\NewDataView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -104,5 +126,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

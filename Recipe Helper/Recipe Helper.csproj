@@ -55,12 +55,17 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Models\AddPropertiesModel.cs" />
     <Compile Include="Models\AddPropertyModel.cs" />
+    <Compile Include="ViewModels\AddPropertyViewModel.cs" />
+    <Compile Include="Views\AddPropertiesView.xaml.cs">
+      <DependentUpon>AddPropertiesView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\AddPropertiesViewModel.cs" />
+    <Compile Include="Models\EntityDisplayModel.cs" />
     <Compile Include="Views\AddPropertyView.xaml.cs">
       <DependentUpon>AddPropertyView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ViewModels\AddPropertyViewModel.cs" />
-    <Compile Include="Models\EntityDisplayModel.cs" />
     <Compile Include="Views\EntityDisplayView.xaml.cs">
       <DependentUpon>EntityDisplayView.xaml</DependentUpon>
     </Compile>
@@ -75,6 +80,10 @@
     <Compile Include="Data Classes\Property.cs" />
     <Compile Include="Models\RecipeModel.cs" />
     <Compile Include="ViewModels\RecipeViewModel.cs" />
+    <Page Include="Views\AddPropertiesView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\AddPropertyView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

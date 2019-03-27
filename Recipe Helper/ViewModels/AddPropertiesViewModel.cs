@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Recipe_Helper.Models
+namespace Recipe_Helper
 {
-    class AddPropertyModel
+    class AddPropertyViewModel
     {
     }
 }

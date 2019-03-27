@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Recipe_Helper.Views
+namespace Recipe_Helper
 {
     /// <summary>
     /// Interaction logic for AddPropertyView.xaml

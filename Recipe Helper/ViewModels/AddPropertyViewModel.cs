@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Recipe_Helper
+namespace Recipe_Helper.ViewModels
 {
     class AddPropertyViewModel
     {

@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace Recipe_Helper.Views
 {
     /// <summary>
-    /// Interaction logic for AddPropertyView.xaml
+    /// Interaction logic for PropertyDisplayView.xaml
     /// </summary>
-    public partial class AddPropertyView : UserControl
+    public partial class PropertyDisplayView : UserControl
     {
-        public AddPropertyView()
+        public PropertyDisplayView()
         {
             InitializeComponent();
         }

@@ -10,17 +10,16 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace Recipe_Helper
 {
     /// <summary>
-    /// Interaction logic for AddPropertyView.xaml
+    /// Interaction logic for NewDataWindow.xaml
     /// </summary>
-    public partial class AddPropertyView : UserControl
+    public partial class NewDataWindow : Window
     {
-        public AddPropertyView()
+        public NewDataWindow()
         {
             InitializeComponent();
         }

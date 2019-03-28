@@ -56,35 +56,26 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Models\AddPropertiesModel.cs" />
-    <Compile Include="Models\AddPropertyModel.cs" />
-    <Compile Include="ViewModels\AddPropertyViewModel.cs" />
-    <Compile Include="Views\AddPropertiesView.xaml.cs">
-      <DependentUpon>AddPropertiesView.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="ViewModels\AddPropertiesViewModel.cs" />
+    <Compile Include="Models\PropertyDisplayModel.cs" />
+    <Compile Include="ViewModels\PropertyDisplayViewModel.cs" />
     <Compile Include="Models\EntityDisplayModel.cs" />
-    <Compile Include="Views\AddPropertyView.xaml.cs">
-      <DependentUpon>AddPropertyView.xaml</DependentUpon>
+    <Compile Include="Views\PropertyDisplayView.xaml.cs">
+      <DependentUpon>PropertyDisplayView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\EntityDisplayView.xaml.cs">
       <DependentUpon>EntityDisplayView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Data Classes\Entity.cs" />
     <Compile Include="ViewModels\EntityDisplayViewModel.cs" />
-    <Compile Include="Models\NewDataModel.cs" />
-    <Compile Include="ViewModels\NewDataViewModel.cs" />
-    <Compile Include="Views\NewDataView.xaml.cs">
-      <DependentUpon>NewDataView.xaml</DependentUpon>
+    <Compile Include="ViewModels\AddPropertiesViewModel.cs" />
+    <Compile Include="Views\AddPropertiesView.xaml.cs">
+      <DependentUpon>AddPropertiesView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Data Classes\Profession.cs" />
     <Compile Include="Data Classes\Property.cs" />
     <Compile Include="Models\RecipeModel.cs" />
     <Compile Include="ViewModels\RecipeViewModel.cs" />
-    <Page Include="Views\AddPropertiesView.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Views\AddPropertyView.xaml">
+    <Page Include="Views\PropertyDisplayView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -104,7 +95,7 @@
       <DependentUpon>RecipeView.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Views\NewDataView.xaml">
+    <Page Include="Views\AddPropertiesView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

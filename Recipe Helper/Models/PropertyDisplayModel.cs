@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Recipe_Helper.Models
 {
-    class AddPropertyModel
+    class PropertyDisplayModel
     {
     }
 }

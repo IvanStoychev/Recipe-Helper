@@ -18,9 +18,9 @@ namespace Recipe_Helper
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class RecipeView : Window
     {
-        public MainWindow()
+        public RecipeView()
         {
             InitializeComponent();
         }

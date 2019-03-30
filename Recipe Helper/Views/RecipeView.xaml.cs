@@ -12,6 +12,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Recipe_Helper.Views;
+using Recipe_Helper.Models;
+using Recipe_Helper.ViewModels;
 
 namespace Recipe_Helper
 {
@@ -23,6 +26,12 @@ namespace Recipe_Helper
         public RecipeView()
         {
             InitializeComponent();
+        }
+
+        private void btnNew_Click(object sender, RoutedEventArgs e)
+        {
+            AddPropertiesView addPropertiesView = new AddPropertiesView();
+            addPropertiesView.ShowDialog();
         }
     }
 }

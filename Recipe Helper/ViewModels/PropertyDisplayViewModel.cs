@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Recipe_Helper.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +9,9 @@ namespace Recipe_Helper.ViewModels
 {
     class PropertyDisplayViewModel
     {
+        public static List<string> GetPropertyTypes()
+        {
+            return PropertyDisplayModel.PropertyTypes;
+        }
     }
 }

@@ -8,5 +8,6 @@ namespace Recipe_Helper.Models
 {
     class PropertyDisplayModel
     {
+        public static List<string> PropertyTypes = new List<string>() { "String", "Int", "Double" };
     }
 }

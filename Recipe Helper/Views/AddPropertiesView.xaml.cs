@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace Recipe_Helper
 {
     /// <summary>
-    /// Interaction logic for NewDataWindow.xaml
+    /// Interaction logic for AddPropertiesView.xaml
     /// </summary>
-    public partial class NewDataWindow : Window
+    public partial class AddPropertiesView : Window
     {
-        public NewDataWindow()
+        public AddPropertiesView()
         {
             InitializeComponent();
         }
